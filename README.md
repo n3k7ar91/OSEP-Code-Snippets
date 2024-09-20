@@ -26,7 +26,7 @@ $assem = [System.Reflection.Assembly]::Load($data)
 |Simple Shellcode Runner (C# & PS1 & VBA)|The simplest of shellcode runners. Also provided as native PowerShell and VBA scripts.|
 |XOR Shellcode Encoder (C#)|A simple binary to apply state-of-the-art XOR encoding to obfuscate the shellcode.|
 
-# OSEP REFERENCE GUIDE 
+# OSEP Reference
 ## Common Commands
 ### Encode PowerShell payload
 
